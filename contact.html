@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/ai/contact/contact.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2 class="fade-in">Contact Us</h2>
+        <p class="fade-in">We would love to hear from you!</p>
+        
+        <form onsubmit="submitForm(event)" class="fade-in">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <p id="success-message" class="fade-in hidden">Thank you! Your message has been sent. ✅</p>
+    </div>
+
+    <script src="/ai/contact/contact.js"></script>
+
+</body>
+</html>
